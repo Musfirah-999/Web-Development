@@ -1,0 +1,377 @@
+
+:root{
+    --primary-color:#70AD47;
+    --blue-color: #30444F ;
+     --back-color: #696969;
+    --medium-text:40px
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgba(221, 239, 239, 0.8);
+}
+.main h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.header nav{
+    background-color: rgba(171, 177, 177, 0.8);
+    margin: 20px 160px;
+    border-radius: 80px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 450px;
+    align-items: center;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    gap: 35px;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.digital-bank{
+    margin: 20px 270px;
+    height: 35px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(155, 160, 160, 0.8);
+    border-radius: 25px;
+}
+.financial{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+.financial img{
+ height: 300px;
+}
+.financial-heading .hello{
+  font-size: 45px;
+  width: 300px;
+}
+.financial-heading p{
+    font-size: 26px;
+    width: 250px;
+}
+.financial-text{
+ font-size: 22px;
+ width: 500px;
+}
+.arrow{
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+}
+.bold-text{
+    font-size: 45px;
+    font-weight: 600;
+}
+.conv{
+
+    margin-top: 10px;
+    text-align: center;
+}
+.conv h1{
+   font-size: var(--medium-text);
+   width: 380px;
+   margin-left: 500px;
+   
+}
+.text-green{
+    
+    color: var(--primary-color);
+    font-size: var(--medium-text);
+}
+.conv p .text-bold{
+    font-weight: 600;
+    
+}
+.green{
+    font-size: var(--medium-text);
+    color: var(--primary-color);
+    
+}
+.day-one{
+    margin: 100px;;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 350px;
+
+}
+.day-one-sub{
+    
+    padding: 30px;
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.day-one .day-one-sub .img img{
+    height: 300px;
+    width: 300x;
+    
+}
+
+
+.text{
+    width: 350px;
+    font-size: var(--medium-text);
+}
+.text h1{
+    font-size: var(--medium-text);
+    width: 250px;
+}
+.simple {
+    font-size: 20px;
+    background:none;
+}
+.ease{
+    color: var(--primary-color);
+    
+}
+.freedom {
+    background-image: url(../imgs/fees-percentage-bg.svg) ;
+    background-color: var(--primary-color);
+    margin-top: 20px;
+     padding: 30px;;
+     width:30%;
+     border-radius: 15px;
+}
+.freedom .freedom-text{
+    margin-top: 20px;
+    width: 200px;
+    color: aliceblue;
+    
+}
+.freedom .freedom-text p{
+    width: 280px;
+    font-size: 22px;
+    
+}
+
+.hugo{
+    color: black;
+    
+}
+.pay-bills{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 100px;
+    height: 250px;   
+}
+
+.pay-bills .on-the-go{
+    background-color: rgb(26, 26, 26);
+    background-image: url(../imgs/line-bg.svg);
+    padding: 30px;
+    height: 300px;
+    width: 30%;
+    border-radius: 15px;
+
+}
+.on-go{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.pay-bills .on-the-go h1{
+    font-size: var(--medium-text);
+    color: aliceblue;
+    width: 150px;
+}
+.pay-bills .on-the-go p{
+    font-size: 20px;
+    color: antiquewhite;
+    width: 300px;
+}
+.pay-bills .banking{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 70%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+.pay-bills .banking .banking-text h1{
+    width: 400px;
+}
+.pay-bills .banking .banking-text p{
+    font-size: 20px;
+    width: 350px;
+}
+.dark-green-1{
+    color: rgb(8, 161, 8);
+}
+.dark-green{
+    color: rgb(4, 97, 4);
+}
+.grow{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.grow-money{
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: var(--primary-color);
+    background-image: url(../imgs/grow-your-money.svg);
+}
+.grow-money h1{
+    color: aliceblue;
+    width: 200px;
+}
+.grow p{
+  color: aliceblue;
+  font-size: 20px;
+}
+.win{
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    background-image: url(../imgs/win-rewards.svg);
+}
+.win h1{
+    color: aliceblue;
+    width: 100px;
+}
+.parent{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.parent .child-1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+.parent .child-2{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    gap: 130px;
+}
+.parent .child-3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.live-life h1{
+    margin-left: 600px;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+.live-life-sub{
+    margin: 50px 0 0 250px;
+    background-color: var(--blue-color);
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+}
+.text-1{
+    margin: 50px 0 0 500px ;
+    
+}
+.text-1 p{
+    padding: 20px 0 20px 0;
+    width: 600px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.text-1 h1{
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+}
+.text-1 .arrow{
+    margin: 0 0 0 150px;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    border-radius: 25px;
+    width: 200px;
+    font-size: 20px;
+}
+.footer{
+    margin: 70px 0 0 0;
+    height: 300px;
+    background-color: var(--blue-color);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px 50px 10px 250px;
+}
+.footer img{
+    height: 250px;
+}
+.parent-2, .parent-3{
+    color: antiquewhite;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.child2-1, .child2-2, .child2-3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.parent-3{
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.child3{
+    display: flex;
+    flex-direction: row;
+}
+.child3 img{
+    height: 50px;
+}
+.disc{
+    background-color: var(--blue-color);
+    height: 200px;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.disc p{
+    padding: 0 50px 10px 250px;
+}
+.disc .bold{
+    font-weight: bold;
+}
